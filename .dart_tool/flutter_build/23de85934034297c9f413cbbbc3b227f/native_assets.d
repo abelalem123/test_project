@@ -1,0 +1,1 @@
+ /home/melloss/Development/flutter/test_project/.dart_tool/flutter_build/23de85934034297c9f413cbbbc3b227f/native_assets.yaml: 

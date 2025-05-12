@@ -13,7 +13,6 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../main.dart';
 
-
 export 'lat_lng.dart';
 export 'place.dart';
 export 'uploaded_file.dart';
@@ -399,7 +398,7 @@ void fixStatusBarOniOS16AndBelow(BuildContext context) {
 }
 
 extension ColorOpacityExt on Color {
-  Color applyAlpha(double val) => withValues(alpha: val);
+  Color applyAlpha(double val) => withAlpha(val.toInt());
 }
 
 String roundTo(double value, int decimalPoints) {
